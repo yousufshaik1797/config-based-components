@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@cbc/data-flight": ["libs/data-flight/src/index.ts"],
+      "@cbc/feature-shell": ["libs/feature-shell/src/index.ts"],
+      "@cbc/ui-form": ["libs/ui-form/src/index.ts"],
+      "@cbc/ui-table": ["libs/ui-table/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
